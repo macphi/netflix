@@ -5,15 +5,10 @@ import ListDataMovies from "../listItem/ListItem";
 const ListComponent = () => {
 
     return (
-        <div className="container">
-            <div className="list">
+        <div className="list">
+            <div className="list-movies">
                 <span>Trending Now</span>
-                <div className="list-movies">
-                    <ListDataMovies />
-                    <ListDataMovies />
-                    <ListDataMovies />
-                    <ListDataMovies />
-                </div>
+                <ListDataMovies />
             </div>
         </div>
     )

@@ -1,9 +1,9 @@
 import React from "react";
-import './featured.scss'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 
-const FeaturedComponent = ({ type }) => {
+import './featured.scss'
+const FeaturedComponent = (type) => {
     return (
         <div className="featured">
             {type && (
@@ -31,7 +31,10 @@ const FeaturedComponent = ({ type }) => {
             <img src="https://img.idesign.vn/2021/03/idesign_firstlookemvatrinh_07-1.jpg" alt="" />
             <div className="info">
                 {/* images inside background () */}
-                <img width='100%' src="https://i1-giaitri.vnecdn.net/2021/12/31/em-va-trinh-3-1352-1640919247.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=K5udo5xGtBPIKtuAMerV6Q" alt="" />
+                {/* <img width='100%' src="https://i1-giaitri.vnecdn.net/2021/12/31/em-va-trinh-3-1352-1640919247.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=K5udo5xGtBPIKtuAMerV6Q" alt="" /> */}
+                <iframe src="//coub.com/embed/32iu8x?muted=false&autostart=false&originalSize=true&startWithHD=true" allowfullscreen frameborder="0" width="420" height="260" allow="autoplay"></iframe>
+                {/* Iframe Em va Trinh */}
+                {/* <iframe width="420" height="260" src="https://www.youtube.com/embed/IosqnBOkk2I" allow='autoplay' ></iframe> */}
                 <span className="desc">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab officiis similique at quaerat quas veritatis dolorum fugit mollitia magni doloribus in sint sed veniam minus, nihil minima dolores et?
                 </span>
