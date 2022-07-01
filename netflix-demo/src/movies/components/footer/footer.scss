@@ -1,0 +1,50 @@
+.footer {
+  hr {
+    width: 75%;
+  }
+  .with-you {
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    &:hover {
+      color: wheat;
+    }
+  }
+}
+.footer-text {
+  background-color: #0b0b0b;
+  height: 300px;
+  color: white;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  font-size: 18px;
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    img {
+      width: 120px;
+      margin-bottom: 12px;
+      margin-top: 12px;
+    }
+  }
+  .intro {
+    display: flex;
+    line-height: 3;
+    flex-direction: column;
+    
+    a {
+      color: white;
+      text-decoration: none;
+    
+      &:hover span{
+        color: wheat;
+      }}
+  }
+  .contact {
+    flex-direction: column;
+    display: flex;
+    line-height: 3;
+  }
+}
