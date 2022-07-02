@@ -1,21 +1,33 @@
 .list-movies {
   color: white;
   font-size: 14px;
-  padding: 5px 40px ;
+  padding: 5px 40px;
   img {
     width: 220px;
     height: auto;
+    transform: scale(1);
+    transition: all 0.5s;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
-  .info-movies {
-    margin: 10px;
+  .list-movies-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
-  .profile-movies{
+  .profile-movies {
     display: flex;
     flex-direction: column;
-    margin-right: 5px;
+    padding: 15px;
   }
-  .movies{
-    display: flex;
-    flex-wrap: wrap;
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    &:hover {
+      color: rgb(87, 165, 230);
+    }
   }
 }

@@ -40,7 +40,7 @@ const NavbarComponent = () => {
                     </div>
                 </div> */}
                     <Link to='/login'>
-                        <LoginOutlinedIcon className='login' />
+                        <LoginOutlinedIcon className='login-home' />
                     </Link>
 
                 </div>
