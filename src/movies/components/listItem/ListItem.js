@@ -1,63 +1,37 @@
-import React, { } from 'react';
-import { Row, Col } from 'antd'
-
-
+import React from 'react';
+// import { Row, Col, Card } from 'antd';
 import './listItem.scss'
 
-const ListDataMovies = (movies) => {
+
+const ListDataMovies = ({ movies }) => {
     return (
-        <div className="item">
-            <Row >
-                <Col span={6}>
-                    <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" ></img>
-                    <div className="title">
-                        <span>Europe Street beat</span>
-                    </div>
-                    <div className="desc">
-                        <span>123</span>
-                    </div>
-                </Col>
-            </Row><Row >
-                <Col span={6}>
-                    <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" ></img>
-                    <div className="title">
-                        <span>Europe Street beat</span>
-                    </div>
-                    <div className="desc">
-                        <span>123</span>
-                    </div>
-                </Col>
-            </Row><Row >
-                <Col span={6}>
-                    <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" ></img>
-                    <div className="title">
-                        <span>Europe Street beat</span>
-                    </div>
-                    <div className="desc">
-                        <span>123</span>
-                    </div>
-                </Col>
-            </Row><Row >
-                <Col span={6}>
-                    <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" ></img>
-                    <div className="title">
-                        <span>Europe Street beat</span>
-                    </div>
-                    <div className="desc">
-                        <span>123</span>
-                    </div>
-                </Col>
-            </Row>
-        </div>
+        <div className="list-movies">
+            <div className='info-movies'>
+                <h1 className='title-movie'>Trending Now</h1>
+                <div className='movies'>
+                    {movies.map((item, index) => (
+                        <span key={index} className='profile-movies'>
+                            {<img alt={item.title} src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} />}
+                            {/* {item.title} */}
+                        </span>
+                    ))
+                    }
+                </div>
+            </div >
+            <div className='info-movies'>
+                <h1  className='title-movie' >Top 10 TV Shows In Word Day</h1>
+                <div className='movies'>
+                    {movies.map((item, index) => (
+                        <span key={index} className='profile-movies'>
+                            {<img alt={item.title} src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} />}
+                            {item.title}
+                        </span>
+                    ))
+                    }
+                </div>
 
-
+            </div >
+        </div >
     )
-
-
-
-
-
-
-
 }
-export default React.memo(ListDataMovies)
+export default React.memo(ListDataMovies);

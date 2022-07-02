@@ -1,7 +1,21 @@
-.item{
-  img{
-    width: 240px;
-    height: 200px;
+.list-movies {
+  color: white;
+  font-size: 14px;
+  padding: 5px 40px ;
+  img {
+    width: 220px;
+    height: auto;
   }
-
+  .info-movies {
+    margin: 10px;
+  }
+  .profile-movies{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+  }
+  .movies{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
