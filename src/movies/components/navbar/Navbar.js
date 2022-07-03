@@ -28,13 +28,6 @@ const NavbarComponent = () => {
                     <SearchIcon className='icon' />
                     <NotificationsIcon className='icon' />
                     <img src="https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-anh-cute-de-thuong.jpg" alt="" />
-                    {/* <div className="profile">
-                    <ArrowDropDownIcon className='icon' />
-                    <div className="options">
-                        <span>Settings</span>
-                        <span>Logout</span>
-                    </div>
-                </div> */}
                     <Link to='/login'>
                         <LoginOutlinedIcon className='login-home' />
                     </Link>
