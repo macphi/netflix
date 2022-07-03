@@ -24,7 +24,7 @@ const ListDataMovies = ({ movies }) => {
                 </div>
             </div >
             <div className='list-movies-item'>
-                <h1 >Top 10 TV Shows In Word Day</h1>
+                <h1 >Top 10 TV Shows In World Today</h1>
                 <div className='list-movies-info'>
                     {movies.map((item, index) => (
                         <Link to={`/${slugify(item.title)}~${item.id}`}>
@@ -34,7 +34,6 @@ const ListDataMovies = ({ movies }) => {
                                 {item.title}
                             </span>
                         </Link>
-
                     ))
                     }
                 </div>

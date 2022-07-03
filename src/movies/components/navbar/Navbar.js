@@ -8,9 +8,6 @@ import './navbar.scss'
 
 
 const NavbarComponent = () => {
-
-
-
     const [isScrolled, setIsScrolled] = useState(false);
     window.onscroll = () => {
         setIsScrolled(window.pageYOffset === 0 ? false : true)
@@ -28,7 +25,6 @@ const NavbarComponent = () => {
                     <span>My List</span>
                 </div>
                 <div className="right">
-
                     <SearchIcon className='icon' />
                     <NotificationsIcon className='icon' />
                     <img src="https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-anh-cute-de-thuong.jpg" alt="" />
