@@ -12,7 +12,7 @@ const ListDataMovies = ({ movies }) => {
                 <h1 >Trending Now</h1>
                 <div className='list-movies-info'>
                     {movies.map((item, index) => (
-                        <Link to={`/${slugify(item.title)}~${item.id}`}>
+                        <Link to='/detail'>
                             <span key={index} className='profile-movies'>
                                 {<img alt={item.title} src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} />}
                                 <br />
