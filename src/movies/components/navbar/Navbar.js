@@ -25,6 +25,13 @@ const NavbarComponent = () => {
                     <span>My List</span>
                 </div>
                 <div className="right">
+                    {/* <div className="search-navbar">
+                        <div className="search-input">
+                            <input type="text" placeholder='Search movies a enter' />
+                            <div className="search-icon">
+                            </div>
+                            </div>
+                        </div> */}
                     <SearchIcon className='icon' />
                     <NotificationsIcon className='icon' />
                     <img src="https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-anh-cute-de-thuong.jpg" alt="" />
