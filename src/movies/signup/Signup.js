@@ -27,11 +27,11 @@ const RegisterPages = () => {
                     <span>
                         Already have an account ?
                         <Link to='/login'>
-                            <b>     Log In now</b>
+                            Log In now
                         </Link>
                     </span>
                     <small>
-                        This page is protected by Google reCAPTCHA to ensure you are not a bot. <b>Learn more</b>
+                        This page is protected by Google reCAPTCHA to ensure you are not a bot. <a href="https://github.com/macphi/netflix">Learn more</a>
                     </small>
                 </form>
             </div>

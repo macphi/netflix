@@ -37,7 +37,6 @@ const FooterComponent = () => {
                     Made with by © lethobenthos
                 </span>
             </div>
-
         </div>
 
     )
