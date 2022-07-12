@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import './register.scss'
-
+import './ResponsiveRegister.scss'
 const RegisterPages = () => {
     // // OnClick
     // // Email and Password

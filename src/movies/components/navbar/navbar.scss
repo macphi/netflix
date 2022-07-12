@@ -2,8 +2,6 @@
   width: 100%;
   color: white;
   position: fixed;
-  font-size: 14px;
-  top: 0;
   z-index: 999;
   background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
 
@@ -56,31 +54,12 @@
           color: rgb(209, 164, 164);
         }
       }
-
       img {
         width: 30px;
         height: 30px;
         border-radius: 5px;
         object-fit: cover;
         cursor: pointer;
-      }
-      .profile {
-        .options {
-          display: none;
-          background-color: #0b0b0b;
-          border-radius: 5px;
-        }
-        span {
-          padding: 10px;
-          cursor: pointer;
-        }
-        &:hover {
-          .options {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-          }
-        }
       }
     }
   }

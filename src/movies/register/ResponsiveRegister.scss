@@ -1,0 +1,22 @@
+@media (min-width: 1024) {
+  
+}
+/* Tablet  740px - 1023px*/
+@media (min-width: 740px) and (max-width: 1023px) {
+  .register {
+    background-color: none;
+    text-align: center;
+  }
+}
+/* Mobile duoi 740 */
+@media (max-width: 740px) {
+  .input {
+    flex-direction: column;
+    background-color: none;
+}
+
+  input[type="email"] {
+    background-color: none;
+    overflow: hidden;
+  }
+}

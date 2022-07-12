@@ -5,7 +5,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import { Link } from 'react-router-dom';
 import './navbar.scss'
-
+import './ResponsiveNavbar.scss'
 
 const NavbarComponent = () => {
     const [isScrolled, setIsScrolled] = useState(false);
