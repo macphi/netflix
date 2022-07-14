@@ -1,4 +1,24 @@
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width:740px) and (max-width:1023px) {
+    .container{
+        .left{
+            a{
+               display: none;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
 }
-@media (max-width: 740px) {
+@media (max-width:740px){
+    .container{
+        .left{
+            a{
+               display: none;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './listItem.scss'
-
+import './ResponsiveListItem.scss'
 
 const ListDataMovies = ({ movies }) => {
     return (
@@ -13,7 +13,7 @@ const ListDataMovies = ({ movies }) => {
                         // <Link to={`/${slugify(item.title)}~${item.id}`}>
                         <Link to='/watch'>
                             <span key={index} className='profile-movies'>
-                                {<img alt={item.title} src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} />}
+                                {<img  alt={item.title} src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} />}
                                 <br />
                                 {item.title}
                             </span>

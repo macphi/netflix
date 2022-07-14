@@ -1,0 +1,14 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+  .list-movies-item {
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 740px) {
+  .list-movies-item {
+    img {
+      width: 100%;
+    }
+  }
+}

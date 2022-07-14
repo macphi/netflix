@@ -1,7 +1,20 @@
+.col-full{
+    width: 100%;
+}
+.col-half{
+  width: 50%;
+}
+.col-third{
+  width: 33.333333%;
+}
+.col-four{
+  width: 25%;
+}
 .footer {
   hr {
     width: 75%;
   }
+  
   .with-you {
     text-align: center;
     color: grey;
@@ -12,18 +25,22 @@
   }
 }
 .footer-text {
+ 
   background-color: #0b0b0b;
   height: 300px;
   color: white;
   display: flex;
   margin-top: 30px;
   justify-content: space-around;
-  font-size: 18px;
-  padding: 0px 120px;
+  font-size: 16px;
+  padding: 0px 140px;
   .copyright {
     display: flex;
     flex-direction: column;
     width: 33%;
+    .icons {
+      font-size: 40px;
+    }
     img {
       width: 120px;
       margin-bottom: 12px;
@@ -44,8 +61,8 @@
       }}
   }
   .contact {
-    flex-direction: column;
-    display: flex;
-    line-height: 3;
+    // flex-direction: column;
+    // display: flex;
+    // line-height: 3;
   }
 }

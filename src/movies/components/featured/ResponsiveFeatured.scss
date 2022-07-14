@@ -6,6 +6,9 @@
     }
   .buttons {
     flex-direction: column;
+    button{
+      width: 110px;
+    }
     .more {
       margin-top: 30px ;
     }
