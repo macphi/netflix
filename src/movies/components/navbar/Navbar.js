@@ -20,7 +20,7 @@ const NavbarComponent = () => {
             <div className="container">
                 <div className="left">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Logonfx.png" alt="" />
-                    <a href='/home'>Home</a>
+                    <a href='/home'>Home1</a>
                     <a href='/home'>TV Show</a>
                     <a href='/home'>Movies</a>
                     <a href='/home'>New & Popular</a>
