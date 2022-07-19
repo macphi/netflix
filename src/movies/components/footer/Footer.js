@@ -11,7 +11,7 @@ const FooterComponent = () => {
         <div className="footer">
             <hr />
             <div className="footer-text">
-                <div className="intro col-four">
+                <div className="intro">
                     <a href="/home">
                         <span>Audio and Subtitles</span>
                     </a>
@@ -25,7 +25,7 @@ const FooterComponent = () => {
                         <span>Cooki Preferences</span>
                     </a>
                 </div>
-                <div className="intro col-four s-col-full">
+                <div className="intro">
                     <a href="/home">
                         <span>Audio and Subtitles</span>
                     </a>
@@ -39,7 +39,7 @@ const FooterComponent = () => {
                         <span>Cooki  Preferences</span>
                     </a>
                 </div>
-                <div className="intro col-four">
+                <div className="intro">
                     <a href="/home">
                         <span>Audio and Subtitles</span>
                     </a>
@@ -53,7 +53,7 @@ const FooterComponent = () => {
                         <span>Cooki Preferences</span>
                     </a>
                 </div>
-                <div className="intro col-four">
+                <div className="intro">
                     <a href="/home">
                         <span>Audio and Subtitles</span>
                     </a>
